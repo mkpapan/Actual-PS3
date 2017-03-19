@@ -66,7 +66,7 @@ public class Book {
 			cat.setBooks(booklst);
 			WriteXMLFile(cat);
 		}catch(BookException exc){
-			System.out.println("Book" + id + " is already in the catalog.");
+			System.out.println("Book is already there");
 		}
 	}
 	
